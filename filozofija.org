@@ -1,0 +1,395 @@
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+* Rene Dekart
+Tek sa njim filozofija eksplicitno zna da samostalno dolazi iz ljudskog uma.
+Uzima mišljenje za princip svoje filozofije.
+** Mišljenje
+Mišljenje zna da polazi od sebe samog, da je vlastita osnova. Zna sebe kao ono
+subjektivno koje se može suprotstaviti svakom spoljašnjem autoritetu.
+
+*Mišljenje započinje samim sobom.*
+** /Res cognitans/ i /res extensa/                                 :pitanje:
+Metafizička suprotnost mišljenja i bitka kod Dekarta dovodi do razvitka
+dualističke metafizike.
+
+Mišljenje i bitak su shvaćeni kao dve potpuno odvojene supstancije.
+*** /Res cognitans/ — stvar koja misli
+Mišljenje. Potpuno zatvoreni subjektivni formalitet svesti. To je supstancija
+svesti.
+*** /Res extensa/ — protežna stvar
+Bitak. Predstavlja prostornost predmeta svesti — supstancija stvari spoljnih
+svesti. Predmet koji svest treba da spoznaje uzima se potpuno odvojeno od
+svesti.
+
+Svest o spoljašnjim stvarima može spoznati kvantitativna određenja i
+materijalno-geometrijske odnose.
+** Mehanicističko razumevanje stvarnosti                           :pitanje:
+Dekart primećuje primenljivost i elegantnost matematike u opisu sveta. Matematika
+se rasprostire na predmete svih drugih nauka
+*** Dekartovo mehanicističko shvatanje
+Matematika izučava opšti poredak u svim objektima spoznaje, ali joj nije uzrok.
+*** Mehanicističko-matematičko shvatanje sveta 17. i 18. veka
+Proširenje nad Dekartovim uvidima primenjivosti matematike.
+
+Materija predstavlja samo inertnu masu čije kretanje dolazi od „prvog
+pokretača.“ Mehaniku kretanja određuju zakoni. Tako su i živa bića automate
+određene zakonima mehanike.
+
+Svet se kreće po vlastitim mehaničkim zakonima, ali samo kvantitativnom
+promenom.
+
+Po nužnosti odbacuje Aristotelovo teleološko objašnjenje prirode: odbacuje svrhu
+i pripisuje ponašanje kao nužnu posledicu uzroku kretanja i mehaničkim zakonima.
+** /Cogito, ergo sum/ — „Mislim, dakle postojim“                     :citat:
+Ovaj zaključak Dekartove filozofije se može pokušati predstaviti silogizmom:
+1. Sposobnost mišljenja je moguća samo misaonoj supstanciji, i ona je samosvesna.
+2. Ja mislim.
+3. Dakle, ja postojim
+
+Problem sa prvom premisom: ne govori ništa o postojanju te supstancije. Dekart
+se ne slaže sa pogledom da je to zaključak. Po njemu, /„Sve što misli to
+egzistira“/ se izvodi prvo iz /„Mislim, dakle postоjim“/.
+
+Dekartovo viđenje je da su mišljenje i bitak u neposrednoj vezi. Samo unutrašnja
+sadržina je za svest izvesna.
+* Baruh De Spinoza
+Dobro je poznavao Dekartovu filozofiju, obrazovan i u prirodnim naukama i
+matematici. Glavno delo: /Etika/.
+** Geometrijska metoda izlaganja u /Etici/                         :pitanje:
+Nalik postavkama geometrijskih prostora, Spinoza započinje s definicijama u
+kojima se izlažu osnovni pojmovi: uzrok, konačnost, supstancija, atributi,
+modusi, beskonačnost.
+
+Iza definicija slede aksiomi, koji sadrže intuitivne, očevidne ideje kojima ne
+treba dokaz. Zatim idu postavke, koje se izvode iz definicija i aksioma. Posle
+toga dolaze primedbe.
+
+Spinoza poštuje matematički naučni ideal, koji je teško primenjiv filozofiji.
+** Pojam supstancije — /„Deus sive natura“/ (Bog ili priroda)        :citat:
+Jedini stvarni predmet filozofije je pojam supstancije. Apsolutna suština jeste
+jedna supstancija, ona ima atribute i moduse.
+
+Sve je od supstancije, ali se atributi i modusi supstancije menjaju. Kao takva,
+bitak (supstancija) je određena kao jedinstvo suprotnosti.
+
+Za supstanciju uzima da je sama svoj uzrok: /causa sui/; za vlastito postojanje
+ništa drugo nije potrebno.
+
+Određenje supstancije kao /causa sui/ implicira razumevanje onog što jeste kao
+jedinstvenog i celovitog, čemu nije potreban nikakav spoljašnji uzrok niti
+pokretač, jer je priroda u sebi samoj božanska, autonomna i samodovoljna.
+
+Supstanciju deli i na dve prirode:
+- *Natura naturans* (stvaralačka priroda) — samouzrokovajuća aktivnost prirode
+- *Natura naturata* (stvorena priroda) — pasivan proizvod uzroka prirode
+** Pojam atributa
+Atribut je svojstvo ili način supstancije. Spinoza kaže da ima beskonačno
+atributa (time prevazilazi Dekartov dualizam), ali su samo dva dostpuna ljudskom
+znanju.
+
+To su naime:
+- *Mišljenje* — suštine stvari, ideje
+- *Protežnost* — način na koji supstancija zauzima i /proteže se/ kroz prostor.
+** Pojam modusa
+Modusi su pojedinačne promene supstancije, odnosno, pojedinačne konkretne stvari
+u svetu.
+** Odnos supstancije, atributa i modusa                            :pitanje:
+To je kretanje iz onog /opšteg/ (supstancije), preko /posebnog/ (atributa) do
+/pojedinačnog/ (modusa).
+
+Čovek je, onda, shvaćen kao konačno biće, i modifikacija božjih atributa;
+predstavljen kao pojedinačnost koja se udaljava od onoga opšteg, od supstancije.
+** Odnos Spinoze sa Bogom
+Spinoza doživaljava pojam Boga kao spoj suprotnosti /mišljenja/ i /protežnosti/.
+Misaoni i stvarni svet doživljava kao jedno u različitim formama.
+
+Bog je onda, jedna (monistička) supstancija: esencija i egzistencija Boga su
+isto. Bog nema ciljeve niti svrhu — u ravni sa antiteleološkom orijentacijom
+svoga vremena.
+* Gotlib Vilhelm Lajbnic
+U ranim godinama doktorirao filozofiju i pravo. Zajedno sa Njutnom tvorac
+diferencijalnog računa. Osnovao Berlisku akademiju nauka i bio njen prvi
+predsednik. U fizici postavio zakon očuvanja sile, dao osnov za zakon očuvanja
+energije. U biologiji evolucionističke postavke dao na mehanicističkoj osnovi.
+Značajan i kao pravni autor.
+
+Glavno delo: /Monadologija/.
+** Lajbnic-Volfova filozofija
+Lajbnicovu filozofiju je sistematisao Kristijan Volf. U ovom obliku je
+neprikosnoveno vladala kao školska filozofija tokom 18. veka, pa sve do Kanta.
+
+Lajbnicova filozofija se nalazi u kritičkom protivstavu prema Dekartu i Spinozi.
+Dok Dekart počinje iz samosvesti mišljenja, a Spinoza iz prvog logičkog stava o
+Bogu, Lajbnic polazi od jednostavne individualne supstancije.
+*** Pojam supstancije je središnje filozofsko pitanje 17. veka
+Upravo na osnovi ovog pitanja gradi svoj monadološki filozofski sistem.
+** Monada                                                          :pitanje:
+Monade su proste, individualne supstancije — nešto što je u sebi apstraktno
+prosto.
+
+One ne postaju i ne propadaju na prirodan način: postaju samo zahvaljujući
+Božjem stvaranju i propadaju samo uništavanjem.
+
+One se ne menjaju spoljašnjim uticajem: samostalne su. Među monadama ne postoji
+uzročna povezanost. Sve odredbe, modifikacije i promene potiču iz samih monada.
+
+Monade mogu biti povezane samo harmonijom, a ne odnosom uzročnosti ili
+asistencije.
+
+Razlikuje se od Dekarta koji prirodni realitet određuje kao mrtvu masu koja
+kretanje dobija spoljašnjim uticajem.
+
+Kao delatna, monada je individualna i neponovljiva; može se razlikovati od svake
+druge monade. Princip razlike je za Lajbnica bit monade i biz svega realnoga.
+Monade same sebi daju razliku od drugih monada. Time se Lajbnic jasno distancira
+od Spinozine ideje apsolutnog jedinstva supstancije.
+
+Lajbnicovoj ideji individualiteta nedostaje spinozistička ideja povratka monada
+u jedinstvo (one samo postoje u već postojećoj harmoniji).
+*** Princip individuacije i harmonije
+Svaka monada se uzima da je samodovoljna, nezavisna i bez uticaja okoline — to
+je princip individuacije: supstanciju utapa u ono individualno.
+
+Ipak, pokušava da napravi sklad, i te individualnosti stavlja u odnos božanske
+harmonije. Čitava priroda i sve monade su od Boga tako stvorene da pored
+individualnosti monada postoji i njihova sličnost, sklad i podudaranje, kojim se
+određuje harmonična organizacija univerzuma.
+
+Problem: ili su monade stvarno nezavisne, ili ih spaja i ograničava harmonija
+(nešto spoljne).
+
+Protivrečnost između principa individuacije i ideje jedinstva svega ostaje ipak
+i dalje trajna.
+** Pripovedačka metoda izlaganja filozofije kod Lajbnica           :pitanje:
+Hegel osuđuje retoričku metodu neprikladnom, naziva to „metafizički roman“.
+
+Slobodno se postavljaju hipoteze o suštinskim filozofskim odredbama, koje treba
+da objasne činjenice.
+* Džon Lok
+Školovao se u Vestminsteru i Oksfordu. Bio je na visokim državnim službama u
+Engleskoj. Jedno vreme u emigraciji u Holandiji. Velika popularnost njegove
+filozofije u svom vremenu.
+
+Zauzima empirističko stanovište u razvijenom obliku. Duhovna potreba u
+filozofiji i izvan nje da se usprotivi apstraktnim metafizičkim teorijama
+sholastike i novovekovne metafizike konkretnim sadržajima.
+** Empirizam
+Dotadašnja metafizika je imala poteškoće prelaska s opšteg na ono posebno i
+pojedinačno, jer je i sama počinjala tražeći istinu u samom mišljenju.
+
+Središte empirističke orijentacije: ono istinito se traži iz iskustva. Ni
+metafizika ne beži od iskustva; verovatnost svojih iskustava potvrđuje u
+predstavama.
+
+Empirizam je usmeren na ono što jeste, na ono prezentno, a okrenut protiv
+metafizičke strukture „onostranih“ apstraktnih pojmova.
+*** Nesavladiva teškoća empirizma
+Ono prezentno se uzima pretpostavkom da postoji samo iz čulnih oseta. Bez te
+pretpostavke, sve se razlama na čulno i natčulno.
+
+Vrednost se pridaje samo tom čulnom, a natčulnom se ili odriče postojanje, ili
+mogućnost spoznaje.
+
+Empirizam je stoga i sam (naivno) metafizički: upotrebljava se metafizikom i
+njenim kategorijama, i na tom osnovu gradi i zaključujem — ali nije svestan da
+je to metafizika.
+** Gnoseologija                                                    :pitanje:
+Osniva spoznajnu teoriju — gnoseologiju, što predstavlja značajan obrt u odnosu
+na filozofsku tradiciju.
+
+Etimologija: /gnosis (γνῶσις)/ — znanje.
+
+Središnje pitanje gnoseologije je *„poreklo, sigunost, i opseg ljudske spoznaje,
+zajedno s temeljima i stupnjevima verovanja, mnenja i pristajanja.“*
+
+Loka interesuje spoznajna aparatura svesti: pitanja o ljudskom saznanju, njenom
+izvoru, načinu funkcionisanja, kriterijumu vrednosti.
+
+Izoluje spoznajno-teorijski problem i čini ga centralnim interesom filozofije.
+
+Temeljna pretpostavka je da su svest i svet razdvojeni — pitanje gnoseologije je
+onda kako se ta dva spajaju.
+
+Po Loku, spoznaja se zasniva na iskustvu koja se onda uzdiže u svesti u opšte
+predstave. Opšte predstave svoj izvor i koren nemaju u razumu, već u iskustvu.
+
+Svest nema u sebi nikakvih urođenih ideja: čovek je /tabula rasa/.
+** Senzacije i refleksije                                          :pitanje:
+Čulnost je osnova svake spoznaje. Stečeno iskustvo može biti spoljašnje i
+unutrašnje. Spoljašnje iskoustvo se naziva osetom ili senzacijom, a unutrašnje
+razmišljanjem ili refleksijom.
+
+Iz spoljašnjeg potiču sve naše predstave o spoljašnjim objektima, a iz
+unutrašnjeg ideje o našem duhu.
+
+Oba iskustva vode samo nastanku jednostavnih ideja, dok razum stvara složene ili
+kombinovane ideje.
+** Primarni i sekundarni kvaliteti                                 :pitanje:
+Primarni kvaliteti su kvaliteti koji pripadaju telima bez obzira na naše
+opažanje, i to su proste ideje.
+
+Sekundarni kvaliteti su ideje koje stičemo preko pojedinačnih čula i nisu slike
+objektivnih svojstava, nego samo naših doživljaja.
+* Tomas Hobs
+Završio je studije na Oksfordu. Jedanaest godina izgnanstva u Francuskoj. Tri
+puta putovao u Evropu pre izgnanstva.
+
+Krvavo začinjanje nove epohe zahtevalo je dublje filozofske uvide o smislu i
+karakteru ljudske društvenosti.
+
+Za Hobsa je osnovni izvor spoznaja čulnost. Smisao racionalne spoznaje je u
+razjašnjenju uzroka.
+
+Hobs radikalno preokreće stanovište prirodnosti države sasvim u duhu principa
+novouspostavljenog građanskog sveta. *Pojedinac je prva realnost, a ne država.*
+
+Čovek je po prirodi slobodan pojedinac, dok država nije prirodno, nego veštačko
+telo.
+** Logička pretpostavka „prirodnog stanja“                         :pitanje:
+To nije opis čoveka iz praistorije, nego aktuelnog čoveka izolovanog od njegove
+društvenosti: njegovo prirodno stanje, neiskvareno društvom.
+
+Ovom pretpostavkom Hobs oponira aristotelovsko-tomističkom shvatanju po kome je
+čovek od prirode društveno biće.
+*** *„Čovek je čoveku vuk“ (/Homo homini lupus/)*                   :citat:
+Čovek je od prirode egoista, samoživo biće koje želi da se održi, ali i da
+zavlada nad drugim ljudima. Samoživost je ono što sve ljude izjednačava u
+jednakom pravu na sve stvari, pa i u pravu da se svakome čini šteta i da se
+svako može ubiti.
+** Društveni ugovor                                                :pitanje:
+Ukidanje prirodnog stanja i uspostavljanje države se dešava kroz društveni
+ugovor. Zamišlja prenošenje prava kao ugovor svemoćnih i nemoćnih pojedinaca.
+
+Država je veštačko telo nastalo ugovornim prenošenjem prava svih pojedinaca na
+jednog čoveka ili na grupu ljudi — suverene.
+
+U zavisnosti od broja suverenih to može biti monarhija, aristokratija,
+demokratija.
+
+Prava suverena su apsolutna, što može dovesti do izvitoperivanja suverenske
+vlasti, ali je to još uvek manje zlo od onog iz prirodnog stanja.
+* Džordž Berkli
+Životni poziv vezao za hrišćansku religiju i reformisanu crkvu. Profesor
+teologije, misionar, postao biskup. Radove napisao mlad.
+
+Razvija [[*Džon Lok][Lokov]] senzualizam u idealističkom pravcu. Lok razlikuje primarne i
+sekundarne kvalitete. Objektivno postojanje priznaje primarnim kvalitetima.
+Berkli smatra da su svi kvaliteti sekundarni, i oni koje Lok smatra primarnim.
+** „Biti znači biti opažen“ (/esse—esse percipi/)                    :citat:
+O postojanju stvari ne može se govoriti bez odnosa prema tome da li ih mi
+percipiramo ili ne. Njihovo /esse/ (bitak) jeste /percipi/. Isključeno je da
+imaju bilo kakvo postojanje izvan misli ili misaonog bića koje percipira.
+
+Postojanje stvari uslovljeno je našim osećajima. I sama je supstancija samo
+osećaj naših čula.
+
+Berkli dovodi u sumnju postojanje objektivnog sveta jer svi kvaliteti zavise od
+subjekta. Sam pojam materijalne supstancije, po njemu, sadrži u sebi
+protivrečnost.
+
+Priznaje postojanje samo duhovnoj supstanciji, duhu — onome što percipira. Sve
+stvari su samo kompleksi naših osećaja (oseta). Njihovo je postojanje dato našim
+poznavanjem.
+
+On ne sumnja u postojanje spoljašnjih stvari (koje se npr. mogu videti), ali
+potpuno odbacuje mogućnost postojanja materije ili telesne supstancije.
+** Poreklo ideja
+Ideje spoljašnjih objekata postoje prevashodno u našoj svesti. Pitanje je onda:
+odakle dolaze?
+
+Za pretpostavku Berkli uzima postojanje apsolutnog duhovnog principa – Boga.
+Berkli pretpostavlja postojanje ideja u svesti božjim delovanjem na ljudski um.
+
+Onda svet nije samo moja subjektivna predstava, nego je rezultat jednog vrhovnog
+duhovnog principa koji sazdaje „zakone prirode“, ali i zakone razlikovanja
+jasnih od manje jasnih ideja.
+
+Ipak, Suprotstavlja se vladajućoj mehanicističkoj koncepciji prirodno-naučnog
+mišljenja; posebno kartezijanskoj fizici.
+
+Odbacuje pojam uzročnosti i kao jedini uzrok priznaje duhovni uzrok. Približava
+se teleološkom razumevanju uzroka.
+* Dejvid Hjum
+Bavio se različitim poslovima: ekonomista, trgovac, istoričar, državnik,
+profesor univerziteta.
+** Hjumova skeptička filozofska pozicija
+Više ima istorijsko nego imanentno filozofsko značenje. Kant je uzima za polazni
+stav vlastite filozofije.
+
+Sam Kant je istakao da ga je Hjum probudio iz „dogmatskog dremeža“, pre svega
+skeptičkim suprotstavljanjem osnovnom maniru novovekovne racionalističke
+metafizike.
+
+Hjum za osnovu uzima istinu onog empirijskog, čulnog, opažajnog, sa tog
+stanovišta osporava opšta određenja i pojmove. Smatra da ta određenja i pojmovi
+ne mogu naći vlastitu potvrdu u onom čulnom.
+
+Helenistički skepticizam (pironizam) je potpuno protiv čulnosti kao kriterija
+istine. On je izričito protiv mogućnosti da se istina uopšte nalazi u čulnom, pa
+i u pojedinačnoj samosvesti.
+
+Izjašnjava da pitanje o postojanju spoljašnjeg sveta se ne može rešiti. Hjumovo
+učenje je na temelju principa Lokovog senzualizma, ali se razlikuje se u
+odgovoru na pitanje o izvoru naših oseta i od Loka i od Berklija.
+
+Za Loka je izvor u spoljašnjem svetu; za Berklija u Bogu. Po Hjumu, ne može se
+dokazati postojanje spoljašnjeg sveta kao izvora naših oseta.
+
+Naš razum operiše samo sa sadržajem naših oseta, a ne i sa onim što ih izaziva.
+Ne može se dokazati ni Berklijeva postavka da spoljašnji svet ne postoji. Naše
+percepcije jednako malo govore o njegovom postojanju kao i o nepostojanju: to
+pitanje se ne može rešiti.
+** Podela „duševnih percepcija“ na utiske i ideje
+Deli duševne percepcije po stepenu snage i živosti.
+
+- Utisci su snažniji — oni su rezultat naše čulne aktivnosti.
+- Ideje su kopije utisaka — osnova naše spoznaje.
+
+Kao i Lok razlikuje senzacije i refleksije, percepcije koje se stiču čulima i
+one koje nešto govore o unutrašnjim stanjima. Razum im ne može ništa dodati, ali
+ih može spajati, analizirati.
+*** Tri osnovna tipa odnosa između utisaka i ideja
+1. Odnosi vremensko-prostornog dodira — tiču se uzročno-posledičnog odnosa.
+2. Sukcesija ili vremenski sled — vremenski prioritet uzroka nad posledicom.
+3. Nužna povezanost uzroka i posledice.
+
+O prve dve vrste odnosa imamo jasne utiske, ali sa pojmom uzročnosti imamo
+znatne teškoće.
+*** Problematičnost pojma uzročnosti                              :pitanje:
+Cela pojmovna mreža filozofije i prirodne nauke Novog veka, po Hjumu, počiva na
+ovom pojmu.
+
+Po Hjumu, pojam uzročnosti počiva na „asocijaciji očekivanja“. Materijal dobijen
+čulnim utiscima spaja se po zakonima asocijacije.
+
+Stvaranje fiktivnih predstava u svesti takođe počiva na spajanju onih predstava
+koje su dobijene percepcijom. Stvaramo uzroke i posledice samo jer očekujemo da
+su dve sukcesivna događaja povezana.
+* Filozofija prosvetiteljstva
+Prosvetiteljstvo je istorijsko-duhovno razdoblje Evrope tokom 18. veka Dešava se
+između dve velike buržoaske revolucije: engleske i francuske 1688-1789. godine.
+
+Moto je: /Sapere aude!/ — Odluči se da budeš mudar, tj. *„Imaj hrabrosti da se
+(bez drugog vođstva) služiš vlastitim razumom!“*
+
+Prosvetiteljstvo uzima razum kao temeljno načelo i najbitniju instanciju čoveka
+i njegovog sveta. Rodno mesto ovog pokreta je filozofija tzv. „zdravog razuma“.
+
+Najviši oblik prosvetiteljstvo dobija u Francuskoj tokom 18. veka.
+** Tri razvojne faze prosvetiteljstva
+1. Dominacija deističko-naturalističkog stanovišta (Monteskje, Volter, Ruso)
+2. Prelaz s deizma prema senzualizmu i materijalizmu (Didro, Kondiak)
+3. Ateistički i mehanicistički materijalizam (Lametri, Helvecijus, Holbah).
+** Teza o zakonomernosti istorijskog proces                        :pitanje:
+Istorijski procesi se ne upravljaju po božjem proviđenju, nego po činiocima
+prirodnog, ljudskog i ovozemaljskog karaktera.
+
+Područje državno-društvenog života je jedan totalitet koji se ne upravlja ni
+proviđenjem ni slučajnošću, nego ima svoj racionalni osnov u objektivnim
+zakonima društvenog, političkog i pravnog razvitka.
+** Podela vlasti na zakonodavnu, izvršnu i sudsku                  :pitanje:
+Ova postavka je temelj građanskog liberalizma i jedan od nezaobilaznih obrazaca
+moderne parlamentarne demokratije.
+
+Monteskje zahteva versku toleranciju, jednakost svih vera pred zakonom,
+odvajanje crkve od države, sekularizaciju crkvenih dobara i ukidanje
+inkvizicije.

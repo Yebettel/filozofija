@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-02-03 Thu 21:24 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="diingus" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgceb314b">1. Rene Dekart</a>
+<ul>
+<li><a href="#org43927fa">1.1. Mišljenje</a></li>
+<li><a href="#org976e9b5">1.2. <i>Res cognitans</i> i <i>res extensa</i>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a>
+<ul>
+<li><a href="#org0b151e6">1.2.1. <i>Res cognitans</i> — stvar koja misli</a></li>
+<li><a href="#org9135490">1.2.2. <i>Res extensa</i> — protežna stvar</a></li>
+</ul>
+</li>
+<li><a href="#org7369126">1.3. Mehanicističko razumevanje stvarnosti&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a>
+<ul>
+<li><a href="#orgb1ad340">1.3.1. Dekartovo mehanicističko shvatanje</a></li>
+<li><a href="#orgd1ad2ed">1.3.2. Mehanicističko-matematičko shvatanje sveta 17. i 18. veka</a></li>
+</ul>
+</li>
+<li><a href="#org5ded9db">1.4. <i>Cogito, ergo sum</i> — „Mislim, dakle postojim“&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></a></li>
+</ul>
+</li>
+<li><a href="#orgb754fb8">2. Baruh De Spinoza</a>
+<ul>
+<li><a href="#orga26f4b5">2.1. Geometrijska metoda izlaganja u <i>Etici</i>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+<li><a href="#orgcca7d3f">2.2. Pojam supstancije — <i>„Deus sive natura“</i> (Bog ili priroda)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></a></li>
+<li><a href="#orgee8a385">2.3. Pojam atributa</a></li>
+<li><a href="#org7b97f6c">2.4. Pojam modusa</a></li>
+<li><a href="#orgd2d9d81">2.5. Odnos supstancije, atributa i modusa&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+<li><a href="#orged59dd6">2.6. Odnos Spinoze sa Bogom</a></li>
+</ul>
+</li>
+<li><a href="#orgf002826">3. Gotlib Vilhelm Lajbnic</a>
+<ul>
+<li><a href="#org629548a">3.1. Lajbnic-Volfova filozofija</a>
+<ul>
+<li><a href="#org640ef50">3.1.1. Pojam supstancije je središnje filozofsko pitanje 17. veka</a></li>
+</ul>
+</li>
+<li><a href="#orgbb8bcdb">3.2. Monada&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a>
+<ul>
+<li><a href="#org4c89842">3.2.1. Princip individuacije i harmonije</a></li>
+</ul>
+</li>
+<li><a href="#orgd8b3fb7">3.3. Pripovedačka metoda izlaganja filozofije kod Lajbnica&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org2a99922">4. Džon Lok</a>
+<ul>
+<li><a href="#org5884142">4.1. Empirizam</a>
+<ul>
+<li><a href="#orgfe359da">4.1.1. Nesavladiva teškoća empirizma</a></li>
+</ul>
+</li>
+<li><a href="#orgccc8be3">4.2. Gnoseologija&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+<li><a href="#orgfeecfcf">4.3. Senzacije i refleksije&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+<li><a href="#orgd43f30b">4.4. Primarni i sekundarni kvaliteti&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+</ul>
+</li>
+<li><a href="#orgaced4c9">5. Tomas Hobs</a>
+<ul>
+<li><a href="#org8f4aae3">5.1. Logička pretpostavka „prirodnog stanja“&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a>
+<ul>
+<li><a href="#org21ca4a8">5.1.1. <b>„Čovek je čoveku vuk“ (<i>Homo homini lupus</i>)</b>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></a></li>
+</ul>
+</li>
+<li><a href="#orgf0fed87">5.2. Društveni ugovor&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org6c98ec1">6. Džordž Berkli</a>
+<ul>
+<li><a href="#orge860c77">6.1. „Biti znači biti opažen“ (<i>esse—esse percipi</i>)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></a></li>
+<li><a href="#org096da9a">6.2. Poreklo ideja</a></li>
+</ul>
+</li>
+<li><a href="#orgf0a2167">7. Dejvid Hjum</a>
+<ul>
+<li><a href="#org00823de">7.1. Hjumova skeptička filozofska pozicija</a></li>
+<li><a href="#org8d59b94">7.2. Podela „duševnih percepcija“ na utiske i ideje</a>
+<ul>
+<li><a href="#org0ff8330">7.2.1. Tri osnovna tipa odnosa između utisaka i ideja</a></li>
+<li><a href="#orgbead881">7.2.2. Problematičnost pojma uzročnosti&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7b39608">8. Filozofija prosvetiteljstva</a>
+<ul>
+<li><a href="#orga8cfd9d">8.1. Tri razvojne faze prosvetiteljstva</a></li>
+<li><a href="#orgd803709">8.2. Teza o zakonomernosti istorijskog proces&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+<li><a href="#org91559fd">8.3. Podela vlasti na zakonodavnu, izvršnu i sudsku&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgceb314b" class="outline-2">
+<h2 id="orgceb314b"><span class="section-number-2">1.</span> Rene Dekart</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Tek sa njim filozofija eksplicitno zna da samostalno dolazi iz ljudskog uma.
+Uzima mišljenje za princip svoje filozofije.
+</p>
+</div>
+<div id="outline-container-org43927fa" class="outline-3">
+<h3 id="org43927fa"><span class="section-number-3">1.1.</span> Mišljenje</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Mišljenje zna da polazi od sebe samog, da je vlastita osnova. Zna sebe kao ono
+subjektivno koje se može suprotstaviti svakom spoljašnjem autoritetu.
+</p>
+
+<p>
+<b>Mišljenje započinje samim sobom.</b>
+</p>
+</div>
+</div>
+<div id="outline-container-org976e9b5" class="outline-3">
+<h3 id="org976e9b5"><span class="section-number-3">1.2.</span> <i>Res cognitans</i> i <i>res extensa</i>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Metafizička suprotnost mišljenja i bitka kod Dekarta dovodi do razvitka
+dualističke metafizike.
+</p>
+
+<p>
+Mišljenje i bitak su shvaćeni kao dve potpuno odvojene supstancije.
+</p>
+</div>
+<div id="outline-container-org0b151e6" class="outline-4">
+<h4 id="org0b151e6"><span class="section-number-4">1.2.1.</span> <i>Res cognitans</i> — stvar koja misli</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+Mišljenje. Potpuno zatvoreni subjektivni formalitet svesti. To je supstancija
+svesti.
+</p>
+</div>
+</div>
+<div id="outline-container-org9135490" class="outline-4">
+<h4 id="org9135490"><span class="section-number-4">1.2.2.</span> <i>Res extensa</i> — protežna stvar</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+Bitak. Predstavlja prostornost predmeta svesti — supstancija stvari spoljnih
+svesti. Predmet koji svest treba da spoznaje uzima se potpuno odvojeno od
+svesti.
+</p>
+
+<p>
+Svest o spoljašnjim stvarima može spoznati kvantitativna određenja i
+materijalno-geometrijske odnose.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7369126" class="outline-3">
+<h3 id="org7369126"><span class="section-number-3">1.3.</span> Mehanicističko razumevanje stvarnosti&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Dekart primećuje primenljivost i elegantnost matematike u opisu sveta. Matematika
+se rasprostire na predmete svih drugih nauka
+</p>
+</div>
+<div id="outline-container-orgb1ad340" class="outline-4">
+<h4 id="orgb1ad340"><span class="section-number-4">1.3.1.</span> Dekartovo mehanicističko shvatanje</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+Matematika izučava opšti poredak u svim objektima spoznaje, ali joj nije uzrok.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd1ad2ed" class="outline-4">
+<h4 id="orgd1ad2ed"><span class="section-number-4">1.3.2.</span> Mehanicističko-matematičko shvatanje sveta 17. i 18. veka</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<p>
+Proširenje nad Dekartovim uvidima primenjivosti matematike.
+</p>
+
+<p>
+Materija predstavlja samo inertnu masu čije kretanje dolazi od „prvog
+pokretača.“ Mehaniku kretanja određuju zakoni. Tako su i živa bića automate
+određene zakonima mehanike.
+</p>
+
+<p>
+Svet se kreće po vlastitim mehaničkim zakonima, ali samo kvantitativnom
+promenom.
+</p>
+
+<p>
+Po nužnosti odbacuje Aristotelovo teleološko objašnjenje prirode: odbacuje svrhu
+i pripisuje ponašanje kao nužnu posledicu uzroku kretanja i mehaničkim zakonima.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5ded9db" class="outline-3">
+<h3 id="org5ded9db"><span class="section-number-3">1.4.</span> <i>Cogito, ergo sum</i> — „Mislim, dakle postojim“&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+Ovaj zaključak Dekartove filozofije se može pokušati predstaviti silogizmom:
+</p>
+<ol class="org-ol">
+<li>Sposobnost mišljenja je moguća samo misaonoj supstanciji, i ona je samosvesna.</li>
+<li>Ja mislim.</li>
+<li>Dakle, ja postojim</li>
+</ol>
+
+<p>
+Problem sa prvom premisom: ne govori ništa o postojanju te supstancije. Dekart
+se ne slaže sa pogledom da je to zaključak. Po njemu, <i>„Sve što misli to
+egzistira“</i> se izvodi prvo iz <i>„Mislim, dakle postоjim“</i>.
+</p>
+
+<p>
+Dekartovo viđenje je da su mišljenje i bitak u neposrednoj vezi. Samo unutrašnja
+sadržina je za svest izvesna.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb754fb8" class="outline-2">
+<h2 id="orgb754fb8"><span class="section-number-2">2.</span> Baruh De Spinoza</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Dobro je poznavao Dekartovu filozofiju, obrazovan i u prirodnim naukama i
+matematici. Glavno delo: <i>Etika</i>.
+</p>
+</div>
+<div id="outline-container-orga26f4b5" class="outline-3">
+<h3 id="orga26f4b5"><span class="section-number-3">2.1.</span> Geometrijska metoda izlaganja u <i>Etici</i>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Nalik postavkama geometrijskih prostora, Spinoza započinje s definicijama u
+kojima se izlažu osnovni pojmovi: uzrok, konačnost, supstancija, atributi,
+modusi, beskonačnost.
+</p>
+
+<p>
+Iza definicija slede aksiomi, koji sadrže intuitivne, očevidne ideje kojima ne
+treba dokaz. Zatim idu postavke, koje se izvode iz definicija i aksioma. Posle
+toga dolaze primedbe.
+</p>
+
+<p>
+Spinoza poštuje matematički naučni ideal, koji je teško primenjiv filozofiji.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcca7d3f" class="outline-3">
+<h3 id="orgcca7d3f"><span class="section-number-3">2.2.</span> Pojam supstancije — <i>„Deus sive natura“</i> (Bog ili priroda)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Jedini stvarni predmet filozofije je pojam supstancije. Apsolutna suština jeste
+jedna supstancija, ona ima atribute i moduse.
+</p>
+
+<p>
+Sve je od supstancije, ali se atributi i modusi supstancije menjaju. Kao takva,
+bitak (supstancija) je određena kao jedinstvo suprotnosti.
+</p>
+
+<p>
+Za supstanciju uzima da je sama svoj uzrok: <i>causa sui</i>; za vlastito postojanje
+ništa drugo nije potrebno.
+</p>
+
+<p>
+Određenje supstancije kao <i>causa sui</i> implicira razumevanje onog što jeste kao
+jedinstvenog i celovitog, čemu nije potreban nikakav spoljašnji uzrok niti
+pokretač, jer je priroda u sebi samoj božanska, autonomna i samodovoljna.
+</p>
+
+<p>
+Supstanciju deli i na dve prirode:
+</p>
+<ul class="org-ul">
+<li><b>Natura naturans</b> (stvaralačka priroda) — samouzrokovajuća aktivnost prirode</li>
+<li><b>Natura naturata</b> (stvorena priroda) — pasivan proizvod uzroka prirode</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgee8a385" class="outline-3">
+<h3 id="orgee8a385"><span class="section-number-3">2.3.</span> Pojam atributa</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Atribut je svojstvo ili način supstancije. Spinoza kaže da ima beskonačno
+atributa (time prevazilazi Dekartov dualizam), ali su samo dva dostpuna ljudskom
+znanju.
+</p>
+
+<p>
+To su naime:
+</p>
+<ul class="org-ul">
+<li><b>Mišljenje</b> — suštine stvari, ideje</li>
+<li><b>Protežnost</b> — način na koji supstancija zauzima i <i>proteže se</i> kroz prostor.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7b97f6c" class="outline-3">
+<h3 id="org7b97f6c"><span class="section-number-3">2.4.</span> Pojam modusa</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Modusi su pojedinačne promene supstancije, odnosno, pojedinačne konkretne stvari
+u svetu.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd2d9d81" class="outline-3">
+<h3 id="orgd2d9d81"><span class="section-number-3">2.5.</span> Odnos supstancije, atributa i modusa&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+To je kretanje iz onog <i>opšteg</i> (supstancije), preko <i>posebnog</i> (atributa) do
+<i>pojedinačnog</i> (modusa).
+</p>
+
+<p>
+Čovek je, onda, shvaćen kao konačno biće, i modifikacija božjih atributa;
+predstavljen kao pojedinačnost koja se udaljava od onoga opšteg, od supstancije.
+</p>
+</div>
+</div>
+<div id="outline-container-orged59dd6" class="outline-3">
+<h3 id="orged59dd6"><span class="section-number-3">2.6.</span> Odnos Spinoze sa Bogom</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+Spinoza doživaljava pojam Boga kao spoj suprotnosti <i>mišljenja</i> i <i>protežnosti</i>.
+Misaoni i stvarni svet doživljava kao jedno u različitim formama.
+</p>
+
+<p>
+Bog je onda, jedna (monistička) supstancija: esencija i egzistencija Boga su
+isto. Bog nema ciljeve niti svrhu — u ravni sa antiteleološkom orijentacijom
+svoga vremena.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf002826" class="outline-2">
+<h2 id="orgf002826"><span class="section-number-2">3.</span> Gotlib Vilhelm Lajbnic</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+U ranim godinama doktorirao filozofiju i pravo. Zajedno sa Njutnom tvorac
+diferencijalnog računa. Osnovao Berlisku akademiju nauka i bio njen prvi
+predsednik. U fizici postavio zakon očuvanja sile, dao osnov za zakon očuvanja
+energije. U biologiji evolucionističke postavke dao na mehanicističkoj osnovi.
+Značajan i kao pravni autor.
+</p>
+
+<p>
+Glavno delo: <i>Monadologija</i>.
+</p>
+</div>
+<div id="outline-container-org629548a" class="outline-3">
+<h3 id="org629548a"><span class="section-number-3">3.1.</span> Lajbnic-Volfova filozofija</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Lajbnicovu filozofiju je sistematisao Kristijan Volf. U ovom obliku je
+neprikosnoveno vladala kao školska filozofija tokom 18. veka, pa sve do Kanta.
+</p>
+
+<p>
+Lajbnicova filozofija se nalazi u kritičkom protivstavu prema Dekartu i Spinozi.
+Dok Dekart počinje iz samosvesti mišljenja, a Spinoza iz prvog logičkog stava o
+Bogu, Lajbnic polazi od jednostavne individualne supstancije.
+</p>
+</div>
+<div id="outline-container-org640ef50" class="outline-4">
+<h4 id="org640ef50"><span class="section-number-4">3.1.1.</span> Pojam supstancije je središnje filozofsko pitanje 17. veka</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<p>
+Upravo na osnovi ovog pitanja gradi svoj monadološki filozofski sistem.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbb8bcdb" class="outline-3">
+<h3 id="orgbb8bcdb"><span class="section-number-3">3.2.</span> Monada&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Monade su proste, individualne supstancije — nešto što je u sebi apstraktno
+prosto.
+</p>
+
+<p>
+One ne postaju i ne propadaju na prirodan način: postaju samo zahvaljujući
+Božjem stvaranju i propadaju samo uništavanjem.
+</p>
+
+<p>
+One se ne menjaju spoljašnjim uticajem: samostalne su. Među monadama ne postoji
+uzročna povezanost. Sve odredbe, modifikacije i promene potiču iz samih monada.
+</p>
+
+<p>
+Monade mogu biti povezane samo harmonijom, a ne odnosom uzročnosti ili
+asistencije.
+</p>
+
+<p>
+Razlikuje se od Dekarta koji prirodni realitet određuje kao mrtvu masu koja
+kretanje dobija spoljašnjim uticajem.
+</p>
+
+<p>
+Kao delatna, monada je individualna i neponovljiva; može se razlikovati od svake
+druge monade. Princip razlike je za Lajbnica bit monade i biz svega realnoga.
+Monade same sebi daju razliku od drugih monada. Time se Lajbnic jasno distancira
+od Spinozine ideje apsolutnog jedinstva supstancije.
+</p>
+
+<p>
+Lajbnicovoj ideji individualiteta nedostaje spinozistička ideja povratka monada
+u jedinstvo (one samo postoje u već postojećoj harmoniji).
+</p>
+</div>
+<div id="outline-container-org4c89842" class="outline-4">
+<h4 id="org4c89842"><span class="section-number-4">3.2.1.</span> Princip individuacije i harmonije</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<p>
+Svaka monada se uzima da je samodovoljna, nezavisna i bez uticaja okoline — to
+je princip individuacije: supstanciju utapa u ono individualno.
+</p>
+
+<p>
+Ipak, pokušava da napravi sklad, i te individualnosti stavlja u odnos božanske
+harmonije. Čitava priroda i sve monade su od Boga tako stvorene da pored
+individualnosti monada postoji i njihova sličnost, sklad i podudaranje, kojim se
+određuje harmonična organizacija univerzuma.
+</p>
+
+<p>
+Problem: ili su monade stvarno nezavisne, ili ih spaja i ograničava harmonija
+(nešto spoljne).
+</p>
+
+<p>
+Protivrečnost između principa individuacije i ideje jedinstva svega ostaje ipak
+i dalje trajna.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd8b3fb7" class="outline-3">
+<h3 id="orgd8b3fb7"><span class="section-number-3">3.3.</span> Pripovedačka metoda izlaganja filozofije kod Lajbnica&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Hegel osuđuje retoričku metodu neprikladnom, naziva to „metafizički roman“.
+</p>
+
+<p>
+Slobodno se postavljaju hipoteze o suštinskim filozofskim odredbama, koje treba
+da objasne činjenice.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2a99922" class="outline-2">
+<h2 id="org2a99922"><span class="section-number-2">4.</span> Džon Lok</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Školovao se u Vestminsteru i Oksfordu. Bio je na visokim državnim službama u
+Engleskoj. Jedno vreme u emigraciji u Holandiji. Velika popularnost njegove
+filozofije u svom vremenu.
+</p>
+
+<p>
+Zauzima empirističko stanovište u razvijenom obliku. Duhovna potreba u
+filozofiji i izvan nje da se usprotivi apstraktnim metafizičkim teorijama
+sholastike i novovekovne metafizike konkretnim sadržajima.
+</p>
+</div>
+<div id="outline-container-org5884142" class="outline-3">
+<h3 id="org5884142"><span class="section-number-3">4.1.</span> Empirizam</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Dotadašnja metafizika je imala poteškoće prelaska s opšteg na ono posebno i
+pojedinačno, jer je i sama počinjala tražeći istinu u samom mišljenju.
+</p>
+
+<p>
+Središte empirističke orijentacije: ono istinito se traži iz iskustva. Ni
+metafizika ne beži od iskustva; verovatnost svojih iskustava potvrđuje u
+predstavama.
+</p>
+
+<p>
+Empirizam je usmeren na ono što jeste, na ono prezentno, a okrenut protiv
+metafizičke strukture „onostranih“ apstraktnih pojmova.
+</p>
+</div>
+<div id="outline-container-orgfe359da" class="outline-4">
+<h4 id="orgfe359da"><span class="section-number-4">4.1.1.</span> Nesavladiva teškoća empirizma</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+Ono prezentno se uzima pretpostavkom da postoji samo iz čulnih oseta. Bez te
+pretpostavke, sve se razlama na čulno i natčulno.
+</p>
+
+<p>
+Vrednost se pridaje samo tom čulnom, a natčulnom se ili odriče postojanje, ili
+mogućnost spoznaje.
+</p>
+
+<p>
+Empirizam je stoga i sam (naivno) metafizički: upotrebljava se metafizikom i
+njenim kategorijama, i na tom osnovu gradi i zaključujem — ali nije svestan da
+je to metafizika.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgccc8be3" class="outline-3">
+<h3 id="orgccc8be3"><span class="section-number-3">4.2.</span> Gnoseologija&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Osniva spoznajnu teoriju — gnoseologiju, što predstavlja značajan obrt u odnosu
+na filozofsku tradiciju.
+</p>
+
+<p>
+Etimologija: <i>gnosis (γνῶσις)</i> — znanje.
+</p>
+
+<p>
+Središnje pitanje gnoseologije je <b>„poreklo, sigunost, i opseg ljudske spoznaje,
+zajedno s temeljima i stupnjevima verovanja, mnenja i pristajanja.“</b>
+</p>
+
+<p>
+Loka interesuje spoznajna aparatura svesti: pitanja o ljudskom saznanju, njenom
+izvoru, načinu funkcionisanja, kriterijumu vrednosti.
+</p>
+
+<p>
+Izoluje spoznajno-teorijski problem i čini ga centralnim interesom filozofije.
+</p>
+
+<p>
+Temeljna pretpostavka je da su svest i svet razdvojeni — pitanje gnoseologije je
+onda kako se ta dva spajaju.
+</p>
+
+<p>
+Po Loku, spoznaja se zasniva na iskustvu koja se onda uzdiže u svesti u opšte
+predstave. Opšte predstave svoj izvor i koren nemaju u razumu, već u iskustvu.
+</p>
+
+<p>
+Svest nema u sebi nikakvih urođenih ideja: čovek je <i>tabula rasa</i>.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfeecfcf" class="outline-3">
+<h3 id="orgfeecfcf"><span class="section-number-3">4.3.</span> Senzacije i refleksije&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+Čulnost je osnova svake spoznaje. Stečeno iskustvo može biti spoljašnje i
+unutrašnje. Spoljašnje iskoustvo se naziva osetom ili senzacijom, a unutrašnje
+razmišljanjem ili refleksijom.
+</p>
+
+<p>
+Iz spoljašnjeg potiču sve naše predstave o spoljašnjim objektima, a iz
+unutrašnjeg ideje o našem duhu.
+</p>
+
+<p>
+Oba iskustva vode samo nastanku jednostavnih ideja, dok razum stvara složene ili
+kombinovane ideje.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd43f30b" class="outline-3">
+<h3 id="orgd43f30b"><span class="section-number-3">4.4.</span> Primarni i sekundarni kvaliteti&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Primarni kvaliteti su kvaliteti koji pripadaju telima bez obzira na naše
+opažanje, i to su proste ideje.
+</p>
+
+<p>
+Sekundarni kvaliteti su ideje koje stičemo preko pojedinačnih čula i nisu slike
+objektivnih svojstava, nego samo naših doživljaja.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaced4c9" class="outline-2">
+<h2 id="orgaced4c9"><span class="section-number-2">5.</span> Tomas Hobs</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Završio je studije na Oksfordu. Jedanaest godina izgnanstva u Francuskoj. Tri
+puta putovao u Evropu pre izgnanstva.
+</p>
+
+<p>
+Krvavo začinjanje nove epohe zahtevalo je dublje filozofske uvide o smislu i
+karakteru ljudske društvenosti.
+</p>
+
+<p>
+Za Hobsa je osnovni izvor spoznaja čulnost. Smisao racionalne spoznaje je u
+razjašnjenju uzroka.
+</p>
+
+<p>
+Hobs radikalno preokreće stanovište prirodnosti države sasvim u duhu principa
+novouspostavljenog građanskog sveta. <b>Pojedinac je prva realnost, a ne država.</b>
+</p>
+
+<p>
+Čovek je po prirodi slobodan pojedinac, dok država nije prirodno, nego veštačko
+telo.
+</p>
+</div>
+<div id="outline-container-org8f4aae3" class="outline-3">
+<h3 id="org8f4aae3"><span class="section-number-3">5.1.</span> Logička pretpostavka „prirodnog stanja“&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+To nije opis čoveka iz praistorije, nego aktuelnog čoveka izolovanog od njegove
+društvenosti: njegovo prirodno stanje, neiskvareno društvom.
+</p>
+
+<p>
+Ovom pretpostavkom Hobs oponira aristotelovsko-tomističkom shvatanju po kome je
+čovek od prirode društveno biće.
+</p>
+</div>
+<div id="outline-container-org21ca4a8" class="outline-4">
+<h4 id="org21ca4a8"><span class="section-number-4">5.1.1.</span> <b>„Čovek je čoveku vuk“ (<i>Homo homini lupus</i>)</b>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+Čovek je od prirode egoista, samoživo biće koje želi da se održi, ali i da
+zavlada nad drugim ljudima. Samoživost je ono što sve ljude izjednačava u
+jednakom pravu na sve stvari, pa i u pravu da se svakome čini šteta i da se
+svako može ubiti.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf0fed87" class="outline-3">
+<h3 id="orgf0fed87"><span class="section-number-3">5.2.</span> Društveni ugovor&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+Ukidanje prirodnog stanja i uspostavljanje države se dešava kroz društveni
+ugovor. Zamišlja prenošenje prava kao ugovor svemoćnih i nemoćnih pojedinaca.
+</p>
+
+<p>
+Država je veštačko telo nastalo ugovornim prenošenjem prava svih pojedinaca na
+jednog čoveka ili na grupu ljudi — suverene.
+</p>
+
+<p>
+U zavisnosti od broja suverenih to može biti monarhija, aristokratija,
+demokratija.
+</p>
+
+<p>
+Prava suverena su apsolutna, što može dovesti do izvitoperivanja suverenske
+vlasti, ali je to još uvek manje zlo od onog iz prirodnog stanja.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6c98ec1" class="outline-2">
+<h2 id="org6c98ec1"><span class="section-number-2">6.</span> Džordž Berkli</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Životni poziv vezao za hrišćansku religiju i reformisanu crkvu. Profesor
+teologije, misionar, postao biskup. Radove napisao mlad.
+</p>
+
+<p>
+Razvija <a href="#org2a99922">Lokov</a> senzualizam u idealističkom pravcu. Lok razlikuje primarne i
+sekundarne kvalitete. Objektivno postojanje priznaje primarnim kvalitetima.
+Berkli smatra da su svi kvaliteti sekundarni, i oni koje Lok smatra primarnim.
+</p>
+</div>
+<div id="outline-container-orge860c77" class="outline-3">
+<h3 id="orge860c77"><span class="section-number-3">6.1.</span> „Biti znači biti opažen“ (<i>esse—esse percipi</i>)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="citat">citat</span></span></h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+O postojanju stvari ne može se govoriti bez odnosa prema tome da li ih mi
+percipiramo ili ne. Njihovo <i>esse</i> (bitak) jeste <i>percipi</i>. Isključeno je da
+imaju bilo kakvo postojanje izvan misli ili misaonog bića koje percipira.
+</p>
+
+<p>
+Postojanje stvari uslovljeno je našim osećajima. I sama je supstancija samo
+osećaj naših čula.
+</p>
+
+<p>
+Berkli dovodi u sumnju postojanje objektivnog sveta jer svi kvaliteti zavise od
+subjekta. Sam pojam materijalne supstancije, po njemu, sadrži u sebi
+protivrečnost.
+</p>
+
+<p>
+Priznaje postojanje samo duhovnoj supstanciji, duhu — onome što percipira. Sve
+stvari su samo kompleksi naših osećaja (oseta). Njihovo je postojanje dato našim
+poznavanjem.
+</p>
+
+<p>
+On ne sumnja u postojanje spoljašnjih stvari (koje se npr. mogu videti), ali
+potpuno odbacuje mogućnost postojanja materije ili telesne supstancije.
+</p>
+</div>
+</div>
+<div id="outline-container-org096da9a" class="outline-3">
+<h3 id="org096da9a"><span class="section-number-3">6.2.</span> Poreklo ideja</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Ideje spoljašnjih objekata postoje prevashodno u našoj svesti. Pitanje je onda:
+odakle dolaze?
+</p>
+
+<p>
+Za pretpostavku Berkli uzima postojanje apsolutnog duhovnog principa – Boga.
+Berkli pretpostavlja postojanje ideja u svesti božjim delovanjem na ljudski um.
+</p>
+
+<p>
+Onda svet nije samo moja subjektivna predstava, nego je rezultat jednog vrhovnog
+duhovnog principa koji sazdaje „zakone prirode“, ali i zakone razlikovanja
+jasnih od manje jasnih ideja.
+</p>
+
+<p>
+Ipak, Suprotstavlja se vladajućoj mehanicističkoj koncepciji prirodno-naučnog
+mišljenja; posebno kartezijanskoj fizici.
+</p>
+
+<p>
+Odbacuje pojam uzročnosti i kao jedini uzrok priznaje duhovni uzrok. Približava
+se teleološkom razumevanju uzroka.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf0a2167" class="outline-2">
+<h2 id="orgf0a2167"><span class="section-number-2">7.</span> Dejvid Hjum</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Bavio se različitim poslovima: ekonomista, trgovac, istoričar, državnik,
+profesor univerziteta.
+</p>
+</div>
+<div id="outline-container-org00823de" class="outline-3">
+<h3 id="org00823de"><span class="section-number-3">7.1.</span> Hjumova skeptička filozofska pozicija</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Više ima istorijsko nego imanentno filozofsko značenje. Kant je uzima za polazni
+stav vlastite filozofije.
+</p>
+
+<p>
+Sam Kant je istakao da ga je Hjum probudio iz „dogmatskog dremeža“, pre svega
+skeptičkim suprotstavljanjem osnovnom maniru novovekovne racionalističke
+metafizike.
+</p>
+
+<p>
+Hjum za osnovu uzima istinu onog empirijskog, čulnog, opažajnog, sa tog
+stanovišta osporava opšta određenja i pojmove. Smatra da ta određenja i pojmovi
+ne mogu naći vlastitu potvrdu u onom čulnom.
+</p>
+
+<p>
+Helenistički skepticizam (pironizam) je potpuno protiv čulnosti kao kriterija
+istine. On je izričito protiv mogućnosti da se istina uopšte nalazi u čulnom, pa
+i u pojedinačnoj samosvesti.
+</p>
+
+<p>
+Izjašnjava da pitanje o postojanju spoljašnjeg sveta se ne može rešiti. Hjumovo
+učenje je na temelju principa Lokovog senzualizma, ali se razlikuje se u
+odgovoru na pitanje o izvoru naših oseta i od Loka i od Berklija.
+</p>
+
+<p>
+Za Loka je izvor u spoljašnjem svetu; za Berklija u Bogu. Po Hjumu, ne može se
+dokazati postojanje spoljašnjeg sveta kao izvora naših oseta.
+</p>
+
+<p>
+Naš razum operiše samo sa sadržajem naših oseta, a ne i sa onim što ih izaziva.
+Ne može se dokazati ni Berklijeva postavka da spoljašnji svet ne postoji. Naše
+percepcije jednako malo govore o njegovom postojanju kao i o nepostojanju: to
+pitanje se ne može rešiti.
+</p>
+</div>
+</div>
+<div id="outline-container-org8d59b94" class="outline-3">
+<h3 id="org8d59b94"><span class="section-number-3">7.2.</span> Podela „duševnih percepcija“ na utiske i ideje</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+Deli duševne percepcije po stepenu snage i živosti.
+</p>
+
+<ul class="org-ul">
+<li>Utisci su snažniji — oni su rezultat naše čulne aktivnosti.</li>
+<li>Ideje su kopije utisaka — osnova naše spoznaje.</li>
+</ul>
+
+<p>
+Kao i Lok razlikuje senzacije i refleksije, percepcije koje se stiču čulima i
+one koje nešto govore o unutrašnjim stanjima. Razum im ne može ništa dodati, ali
+ih može spajati, analizirati.
+</p>
+</div>
+<div id="outline-container-org0ff8330" class="outline-4">
+<h4 id="org0ff8330"><span class="section-number-4">7.2.1.</span> Tri osnovna tipa odnosa između utisaka i ideja</h4>
+<div class="outline-text-4" id="text-7-2-1">
+<ol class="org-ol">
+<li>Odnosi vremensko-prostornog dodira — tiču se uzročno-posledičnog odnosa.</li>
+<li>Sukcesija ili vremenski sled — vremenski prioritet uzroka nad posledicom.</li>
+<li>Nužna povezanost uzroka i posledice.</li>
+</ol>
+
+<p>
+O prve dve vrste odnosa imamo jasne utiske, ali sa pojmom uzročnosti imamo
+znatne teškoće.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbead881" class="outline-4">
+<h4 id="orgbead881"><span class="section-number-4">7.2.2.</span> Problematičnost pojma uzročnosti&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h4>
+<div class="outline-text-4" id="text-7-2-2">
+<p>
+Cela pojmovna mreža filozofije i prirodne nauke Novog veka, po Hjumu, počiva na
+ovom pojmu.
+</p>
+
+<p>
+Po Hjumu, pojam uzročnosti počiva na „asocijaciji očekivanja“. Materijal dobijen
+čulnim utiscima spaja se po zakonima asocijacije.
+</p>
+
+<p>
+Stvaranje fiktivnih predstava u svesti takođe počiva na spajanju onih predstava
+koje su dobijene percepcijom. Stvaramo uzroke i posledice samo jer očekujemo da
+su dve sukcesivna događaja povezana.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7b39608" class="outline-2">
+<h2 id="org7b39608"><span class="section-number-2">8.</span> Filozofija prosvetiteljstva</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+Prosvetiteljstvo je istorijsko-duhovno razdoblje Evrope tokom 18. veka Dešava se
+između dve velike buržoaske revolucije: engleske i francuske 1688-1789. godine.
+</p>
+
+<p>
+Moto je: <i>Sapere aude!</i> — Odluči se da budeš mudar, tj. <b>„Imaj hrabrosti da se
+(bez drugog vođstva) služiš vlastitim razumom!“</b>
+</p>
+
+<p>
+Prosvetiteljstvo uzima razum kao temeljno načelo i najbitniju instanciju čoveka
+i njegovog sveta. Rodno mesto ovog pokreta je filozofija tzv. „zdravog razuma“.
+</p>
+
+<p>
+Najviši oblik prosvetiteljstvo dobija u Francuskoj tokom 18. veka.
+</p>
+</div>
+<div id="outline-container-orga8cfd9d" class="outline-3">
+<h3 id="orga8cfd9d"><span class="section-number-3">8.1.</span> Tri razvojne faze prosvetiteljstva</h3>
+<div class="outline-text-3" id="text-8-1">
+<ol class="org-ol">
+<li>Dominacija deističko-naturalističkog stanovišta (Monteskje, Volter, Ruso)</li>
+<li>Prelaz s deizma prema senzualizmu i materijalizmu (Didro, Kondiak)</li>
+<li>Ateistički i mehanicistički materijalizam (Lametri, Helvecijus, Holbah).</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgd803709" class="outline-3">
+<h3 id="orgd803709"><span class="section-number-3">8.2.</span> Teza o zakonomernosti istorijskog proces&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-8-2">
+<p>
+Istorijski procesi se ne upravljaju po božjem proviđenju, nego po činiocima
+prirodnog, ljudskog i ovozemaljskog karaktera.
+</p>
+
+<p>
+Područje državno-društvenog života je jedan totalitet koji se ne upravlja ni
+proviđenjem ni slučajnošću, nego ima svoj racionalni osnov u objektivnim
+zakonima društvenog, političkog i pravnog razvitka.
+</p>
+</div>
+</div>
+<div id="outline-container-org91559fd" class="outline-3">
+<h3 id="org91559fd"><span class="section-number-3">8.3.</span> Podela vlasti na zakonodavnu, izvršnu i sudsku&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pitanje">pitanje</span></span></h3>
+<div class="outline-text-3" id="text-8-3">
+<p>
+Ova postavka je temelj građanskog liberalizma i jedan od nezaobilaznih obrazaca
+moderne parlamentarne demokratije.
+</p>
+
+<p>
+Monteskje zahteva versku toleranciju, jednakost svih vera pred zakonom,
+odvajanje crkve od države, sekularizaciju crkvenih dobara i ukidanje
+inkvizicije.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: diingus</p>
+<p class="date">Created: 2022-02-03 Thu 21:24</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
