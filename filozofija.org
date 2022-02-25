@@ -1,4 +1,6 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+AUTHOR: Vuletić, Isakov
+#+TITLE: Gradivo filozofije iz drugog polugodišta
 * Rene Dekart
 Tek sa njim filozofija eksplicitno zna da samostalno dolazi iz ljudskog uma.
 Uzima mišljenje za princip svoje filozofije.
@@ -394,57 +396,59 @@ Monteskje zahteva versku toleranciju, jednakost svih vera pred zakonom,
 odvajanje crkve od države, sekularizaciju crkvenih dobara i ukidanje
 inkvizicije.
 ** "Ako boga ne bi bilo, trebalo bi ga izmisliti!"                 :citat:
-Načelo korisnosti najupečatljivije kod Voltera – utilizarizam
-Generalno stanovište prosvetiteljstva.
+Načelo korisnosti najupečatljivije kod Voltera – utilizarizam. Generalno
+stanovište prosvetiteljstva.
 
-Primenjeno: ateizam bi mogao važiti za prosvećene ljude, ali za
-narod je postojanje religije korisno i neophodno.
+Primenjeno: ateizam bi mogao važiti za prosvećene ljude, ali za narod je
+postojanje religije korisno i neophodno.
 ** Ideja napretka i zakonomernosti istorijskog procesa (Volter)    :pitanje:
-Istorija za njega nije samo istorija događaja, već pre svega istorija
-kulture, koju on poistovećuje sa civilizacijom. Opšti napredak duha u
-njegovom kretanju od divljaštva prema civilizaciji.
+Istorija za njega nije samo istorija događaja, već pre svega istorija kulture,
+koju on poistovećuje sa civilizacijom. Opšti napredak duha u njegovom kretanju
+od divljaštva prema civilizaciji.
 
 Kao središnji pokretač istorijskog napretka ne postavlja se političko
 događanje, nego opšte napredovanje duha, koji se prostire kroz sve
 duhovne, društvene i političke sfere.
 ** Rusoovo postavljanje slobode kao onog apsolutnog                :pitanje:
-Postavio teorijski osnov francuske revolucije.
-Njegova teorija države postala je paradigma za sve građanske revolucije.
+Postavio teorijski osnov francuske revolucije. Njegova teorija države postala je
+paradigma za sve građanske revolucije.
 
-Ruso je postavio slobodu kao ono apsolutno, vezujući je sa voljom,
-s praktičkim životom, s beskonačnom unutrašnjom snagom slobodne volje.
-** Narodni suverenitet i opsta volja                               :pitanje:
-Suverenost naroda u državi izražava opšta volja. Ona nije zajednička volja,
-kao agregat pojedinačnih, nego je njihova unutrašnja determinanta,
-koja stvara opštu ličnost.
+Ruso je postavio slobodu kao ono apsolutno, vezujući je sa voljom, s praktičkim
+životom, s beskonačnom unutrašnjom snagom slobodne volje.
+** Narodni suverenitet i opšta volja                                :pitanje:
+Suverenost naroda u državi izražava opšta volja. Ona nije zajednička volja, kao
+agregat pojedinačnih, nego je njihova unutrašnja determinanta, koja stvara opštu
+ličnost.
 
-To treba da uspostavi novo prirodno stanje kao građansko stanje,
-te puni razvitak intelektualnih i moralnih sposobnosti čoveka.
+To treba da uspostavi novo prirodno stanje kao građansko stanje, te puni
+razvitak intelektualnih i moralnih sposobnosti čoveka.
 
-Monteskjeova podela vlasti, po Rusou, je kršenje ideje suvereniteta.
-Najbolji oblik vlasti je izborna aristokratija.
+Monteskjeova podela vlasti, po Rusou, je kršenje ideje suvereniteta. Najbolji
+oblik vlasti je izborna aristokratija.
 
 * Kantova teorijska filozofija
 ** Resenje spoznajno teorijskog problema                           :pitanje:
-Kantova oba toka novovekovne filozofije: racionalizma i empirizma
+Kantova oba toka novovekovne filozofije: racionalizma i empirizma.
 
-Kritika dualizma subjekta i objekta u spoznajnom procesu gde se delatnost subjekta
-shvatala kao prosta statička datost zadobijena ili iz urođenih ideja ili iz čulnosti.
+Kritika dualizma subjekta i objekta u spoznajnom procesu gde se delatnost
+subjekta shvatala kao prosta statička datost zadobijena ili iz urođenih ideja
+ili iz čulnosti.
 
-Protiv empirizma ističe da se psihološko – genetičkom metodom 
-ne može rešiti spoznajno – teorijski problem.
+Protiv empirizma ističe da se psihološko – genetičkom metodom ne može rešiti
+spoznajno – teorijski problem.
 
 Protiv racionalizma pobija pretpostavku nekritičke identifikacije misaonih
-odredbi svesti s realitetom.  Svodi ih na čiste subjektivne odredbe ljudske svesti.
+odredbi svesti s realitetom. Svodi ih na čiste subjektivne odredbe ljudske
+svesti.
 ** Kantov kopernikanski obrt                                       :pitanje:
-Sastoji se u obrtanju stanovišta razumevanja čovekove spoznajne i praktičke 
-delatnosti čoveka kao spoznajnog i moralnoog subjekta. 
+Sastoji se u obrtanju stanovišta razumevanja čovekove spoznajne i praktičke
+delatnosti čoveka kao spoznajnog i moralnoog subjekta.
 
 Stanovište slobodne delatnosti subjekta kao spoznavalačkog i praktičkog bića.
 
-Kao što Kopernik potpuno preokreće geocentrični u heliocentrični sistem, 
-Kant u spoznajnom problemu preokreće središte razumevanja od 
-predmeta, objekta, bitka na subjekat, svest, mišljenje.   
+Kao što Kopernik potpuno preokreće geocentrični u heliocentrični sistem, Kant u
+spoznajnom problemu preokreće središte razumevanja od predmeta, objekta, bitka
+na subjekat, svest, mišljenje.
 
 Na središnju ulogu mišljenja u procesu spoznavanja predmeta.
 ** Kantova pitanja koja određuju polje filozofije                  :citat:
@@ -454,18 +458,20 @@ Kantova pitanja koja određuju polje filozofije
 
 Šta treba da činim? - Etičko pitanje, istražuje se u „Kritici praktičkog uma“.
 
-Čemu smem da se nadam? - Religijsko pitanje, u „Religiji unutar granica čistog uma“.
+Čemu smem da se nadam? - Religijsko pitanje, u „Religiji unutar granica čistog
+uma“.
 
-Šta je čovek? - Antropološko pitanje, ustražuje se u „Antropologiji“. Kao antropološko
-u sebi sabira sva tri prethodna pitanja,odgovor na njega je cela Kantova filozofija.
+Šta je čovek? - Antropološko pitanje, ustražuje se u „Antropologiji“. Kao
+antropološko u sebi sabira sva tri prethodna pitanja,odgovor na njega je cela
+Kantova filozofija.
 ** Transcendentalno - transcendentno	                           :pitanje:
 Transcendentalno – ono što je pre iskustva u nama (svesti) a što ga omogućuje.
 
 Transcendentno – ono što je izvan svakog iskustva (vila, bog, raj...)
 
-Kantova transcendentalna filozofija kritički ispituje misaone principe koji
-daju opštost i nužnost spoznaja samosvesnog uma.
-Njen predmet je transcendentalna spoznaja. Spoznaja same spoznaje predmeta (a priori).
+Kantova transcendentalna filozofija kritički ispituje misaone principe koji daju
+opštost i nužnost spoznaja samosvesnog uma. Njen predmet je transcendentalna
+spoznaja. Spoznaja same spoznaje predmeta (a priori).
 ** Kako su moguci sintetički sudovi a priori?                       :citat:
 A priori – ono što je pre iskustva
 
@@ -473,6 +479,7 @@ A posteriori – ono što je posle iskustva
 
 Razlikovanje sintetičkih i analitičkih sudova:
 
-Sintetički sudovi proširuju spoznaju, njihov predikat se nalazi izvan obima subjekta.
+Sintetički sudovi proširuju spoznaju, njihov predikat se nalazi izvan obima
+subjekta.
 
 Analitički sudovi su objašnjavajući, jer im se predikat sadrži u pojmu subjekta.
