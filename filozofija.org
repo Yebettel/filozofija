@@ -424,7 +424,7 @@ te puni razvitak intelektualnih i moralnih sposobnosti čoveka.
 Monteskjeova podela vlasti, po Rusou, je kršenje ideje suvereniteta.
 Najbolji oblik vlasti je izborna aristokratija.
 
-*** Kantova teorijska filozofija
+* Kantova teorijska filozofija
 ** Resenje spoznajno teorijskog problema                           :pitanje:
 Kantova oba toka novovekovne filozofije: racionalizma i empirizma
 
