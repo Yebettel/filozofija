@@ -451,21 +451,28 @@ Na središnju ulogu mišljenja u procesu spoznavanja predmeta.
 Kantova pitanja koja određuju polje filozofije
 
 Šta mogu da znam? - Metafizičko pitanje, istražuje se u „Kritici čistog uma“.
+
 Šta treba da činim? - Etičko pitanje, istražuje se u „Kritici praktičkog uma“.
+
 Čemu smem da se nadam? - Religijsko pitanje, u „Religiji unutar granica čistog uma“.
+
 Šta je čovek? - Antropološko pitanje, ustražuje se u „Antropologiji“. Kao antropološko
 u sebi sabira sva tri prethodna pitanja,odgovor na njega je cela Kantova filozofija.
 ** Transcendentalno - transcendentno	                           :pitanje:
 Transcendentalno – ono što je pre iskustva u nama (svesti) a što ga omogućuje.
+
 Transcendentno – ono što je izvan svakog iskustva (vila, bog, raj...)
 
 Kantova transcendentalna filozofija kritički ispituje misaone principe koji
 daju opštost i nužnost spoznaja samosvesnog uma.
-Njen predmet je transcendentalna spoznaja. Spoznaja same spoznaje predmeta a priori.
+Njen predmet je transcendentalna spoznaja. Spoznaja same spoznaje predmeta (a priori).
 ** Kako su moguci sintetički sudovi a priori?                       :citat:
 A priori – ono što je pre iskustva
+
 A posteriori – ono što je posle iskustva
 
 Razlikovanje sintetičkih i analitičkih sudova:
+
 Sintetički sudovi proširuju spoznaju, njihov predikat se nalazi izvan obima subjekta.
+
 Analitički sudovi su objašnjavajući, jer im se predikat sadrži u pojmu subjekta.
